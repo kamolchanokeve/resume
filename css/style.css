@@ -1,0 +1,119 @@
+
+
+body {
+background-image: linear-gradient(135deg, rgba(179, 219, 209, 0.71) 0%, rgba(242, 156, 156, 0.49) 100%);
+
+ 
+}
+
+.container-box { margin: 40 px; }
+.box-skill {
+  width: 100%;
+  padding: 0;
+  border: 5px solid gray;
+  margin: 0;
+  height: auto;
+}
+
+
+
+
+
+.my-gallery img : hover {
+
+
+ transform: scale(1.2, 1.2);
+ 
+}
+
+.my-gallery img {
+ border-radius: 7px; 
+  padding: 2px;
+  margin: 2px;
+  cursor: pointer;
+   box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  transition-duration: 1s;
+    transition-property: transform ; 
+    transform-origin : center top;
+}
+
+.content-box{ 
+ 
+ width: 100%;
+  padding: 30px;
+  margin: 20px;
+ box-shadow: 1px 2px 8px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 25px; 
+}
+
+
+navbar {
+  background-color: transparent;
+  
+}
+
+
+@keyframes box-jumping
+{
+  0% { transform: translate(-102%, 0%);}  
+  100%  {transform: translate(0%, 0%);}
+}
+
+@keyframes text-jumping
+{
+  0% {  transform: translate(103%, 0%);}  
+  100%  {transform: translate(0%, 0%);}
+}
+
+.my-pro { 
+
+ margin-top: 40px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 80px;
+
+  animation-name : box-jumping ;
+  animation-duration : 2s
+
+}
+.my-border  {
+  
+   border-radius: 25px; 
+}
+
+
+
+.text { margin-top: 70px;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  margin-left: 5px;
+
+  animation-name : text-jumping ;
+  animation-duration : 2s
+
+}
+
+h1{ text-transform:upercase;
+  font-size: 70px;
+font-family: 'Sofia Sans', sans-serif;
+  line-height:70px;
+ color: #adb6d1;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;}
+
+p{
+  font-family: 'Merriweather', serif;
+  font-size : 16px;
+}
+
+h4{ font-family: 'Roboto', sans-serif;
+  font-size : 20px;}
+
+.progress {
+  background-color : #e4e2e2;
+}
+.progress-bar {
+   background-color : #e67591;
+}
+.progress-bar-soft{
+  background-color : #ffbdcd; }
+
